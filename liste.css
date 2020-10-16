@@ -1,0 +1,114 @@
+table {
+	margin: 0px auto;
+	color: white;
+	text-align: center;
+	width: 80%;
+	height: auto;
+	border-collapse: collapse;
+}
+
+body {
+	background: black;
+	margin: 0;
+	height: 100vh;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+}
+
+td,
+th {
+	width: 350px;
+}
+
+.img {
+	width: 200px;
+	height: auto;
+}
+
+.important {
+	background: rgb(185, 177, 164);
+}
+
+.pasimportant {
+	background: rgb(74, 192, 74);
+}
+
+.urgent {
+	background-image: url(https://www.zoomsurlille.fr/wp-content/uploads/2010/07/logo_urgent.png);
+}
+
+.tresimprtant {
+	text-decoration: line-through;
+	background-size: 120px 80px;
+	background-repeat: no-repeat;
+	background-position: no-repeat;
+	flex-direction: center;
+}
+
+.amis {
+	text-decoration: line-through;
+	background-image: url(https://lh3.googleusercontent.com/proxy/tgjq_3uKlgEvAt4VVN1wo1LjySBaWqyeJreVzLwFz-XMQt87wI1w8dUTPj99OVt8mkkVueow6ijfv_HoAuOw5fPsa4RSgDwxUCe14uhqfyZOMF9KuEw);
+	background-size: 120px 80px;
+	background-repeat: no-repeat;
+	background-position: no-repeat;
+	flex-direction: center;
+}
+
+.lien {
+	width: 350px;
+}
+
+.parent {
+	text-decoration: line-through;
+	background-image: url(https://luniversims.com/uploads/monthly_2017_05/small.sims-4-logo-pack-jeu-gamepack-parents-official-logo-5000.png.c9a8125fb814e8d5c234f7551138a1ba.png);
+	background-size: 120px 80px;
+	background-repeat: no-repeat;
+	background-position: no-repeat;
+}
+
+header {
+	color: white;
+	text-align: center;
+	font-size: 30px;
+}
+
+nav ul li {
+	list-style: none;
+}
+
+.formulaire {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: sans-serif;
+	color: blanchedalmond;
+	font-weight: bolder;
+	margin-bottom: 20px;
+}
+
+label {
+	display: block;
+}
+
+.champ {
+	width: 200px;
+}
+
+footer {
+	background: #ccc;
+	text-align: center;
+	margin-top: auto;
+}
+
+.button {
+	text-align: center;
+	border-radius: 100px;
+	margin-top: 50px;
+}
+
+.link {
+	text-decoration: none;
+	color: white;
+}
